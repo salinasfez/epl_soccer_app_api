@@ -1,0 +1,2 @@
+class MatchDay < ApplicationRecord
+end
