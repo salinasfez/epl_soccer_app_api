@@ -46,6 +46,6 @@ class UserPicksController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def user_pick_params
-      params.require(:user_pick).permit(:picks, :pick_points, :current_points)
+      params.require(:user_pick).permit(:picks, :pick_points, :current_points, :user_id)
     end
 end
